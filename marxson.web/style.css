@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 0 20px;
+  background: #ecc55af8;
+}
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+form {
+  background: #afadad;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  margin-top: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+button {
+  margin-top: 15px;
+  background-color: #27ae60;
+  border: none;
+  color: rgb(245, 236, 236);
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #05e650de;
+}
+.prato-lista {
+  background: #ffffff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.prato-item {
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+}
+.prato-item:last-child {
+  border-bottom: none;
+}
+.prato-item h3 {
+  margin: 0 0 5px;
+  color: #34495e;
+}
+.prato-item p {
+  margin: 4px 0;
+  color: #555;
+}
+.excluir-btn {
+  background-color: #e74c3c;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+.excluir-btn:hover {
+  background-color: #c0392b;
+}
+.saudavel {
+  font-weight: bold;
+  color: green;
+}
+.nao-saudavel {
+  font-weight: bold;
+  color: red;
+}
